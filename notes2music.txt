@@ -1,0 +1,26 @@
+Object Album contains
+
+artist
+tags
+tracks
+release date
+price
+number of albums sold
+popularity
+
+Object Artist contains
+
+albums
+songs
+artist tour date
+concert location
+
+Object song contains
+
+name
+artist
+album
+genre
+tags
+price
+popularity

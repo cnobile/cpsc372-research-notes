@@ -1,0 +1,31 @@
+Christopher Nobile
+Database Fundamentals
+9/13/10
+
+
+client module for the client's computer
+server module - runs the server side
+Level of data models - higher levels for end users, lower levels for database specialists
+
+Be careful about the schema. Schema evolution does occur.
+3 schema level design: internal(storage), conceptual (structure), and external (user level) shcema. Not common to have full implementation of 3 schema design, due to practical constraints.
+
+Some interfaces are more common than other. Natural Language, and especially speech based ones are very limitted. You'll most likely need parametric user interfaces and DBA level interfaces.
+
+Convesion tools are used for loading.
+Backup creates a backup copy of the database.
+Database storage reorganization - Used to improve performance
+
+server level = storage
+client level = interface
+
+In 3 tier - 
+The middle tier is the application or web server. Stores buisness rules, runs application programs. 3 tiers are
+user interface
+application rules
+data access
+
+n-tier archetectures also occur.
+
+relational database model - collection of tables
+object database model - database in terms of objects

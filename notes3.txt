@@ -1,0 +1,21 @@
+Relational data model - table of values
+flat files - linear, flat structure.
+
+tuple = row
+attribute = column
+table = relation
+domain = datatype column
+
+Avoid using Null values.
+
+Tuple - a set of attribute value pairs.
+
+Null can mean unknown, not available, or attribute does not apply.
+
+inherent model-based constraints
+
+superkeys - these must be unique.
+
+Insert - insert tuples
+Delete - delete tuples
+tramsaction - executing program on the database
