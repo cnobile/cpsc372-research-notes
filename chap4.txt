@@ -1,0 +1,42 @@
+Christopher Nobile
+10/9/10
+
+SQL notes
+
+SQL is a structured query language.
+Databases using it tend to be very standardized
+
+table - relation
+row - tuple
+column - attribute
+
+Statements in SQL end with semicolons
+
+Use CREATE TABLE to create tables
+
+datatypes - Numberic (INT, SMALLINT, FLOAT, REAL, etc.)
+character string
+bit string 
+boolean
+date
+
+timestamps are important to determine the order of requests
+
+SELECT
+FROM
+WHERE
+
+Can group a bunch of these with UNION
+
+straightforward search tools, just tell it what you know, what you want, and where to look
+
+There are some useful searches you can do by string, if you don't have all the characters you want or the characters you arte looking for are not in the front of the string.
+
+UPDATE
+SET
+WHERE
+
+INSERT INTO
+VALUES
+
+Remember to end commands with semicolons.
