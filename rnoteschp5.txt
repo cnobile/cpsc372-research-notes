@@ -1,3 +1,5 @@
+Christopher Nobile
+
 commands of note:
 
 EXISTS
@@ -9,8 +11,8 @@ SUM
 MAX
 MIN
 AVG
-COUNT()
-GROUP BY
+COUNT() - COUNT(*) returns the number of tuples returned by a query.
+GROUP BY - ex GROUP BY NAME
 HAVING
 ORDER BY
 
@@ -18,7 +20,11 @@ CREATE ASSERTION
 CHECK()
 EXISTS()
 
+Create an assertion, check it, if it's false, the constraint is violated
+CHECK(NOT EXISTS()) will violate the constraint if the parameter being checked exists. Can become very confusing if within the NOT EXISTS() there are further NOT statements
+
 CREATE TRIGGER
+Triggers an action when the parametersplaced upon a database extend beyond some predetermined bound. If you want to make sure no Employee salary exceeds a supervisor salary, you can throw a trigger to catch it.
 
 BEFORE
 INSERT
@@ -42,5 +48,18 @@ DROP CONSTRAINT
 
 ALTER TABLE
 
-CASCADE
-RESTRICT
+CASCADE This lets you get rid of tables whether or not they are full
+RESTRICT this gets rid of tables only if they have been emptied.
+
+Details - Like with all comp sci stuff, you'll need to track the negatives. 
+AND
+OR
+NOT
+
+Whenever the statement x AND NOT y is true, it follows that the statement y OR NOT x is false.
+
+EXISTS is prone to double negatives. NOT EXISTS() means that everything lacking the values in () will be returned. NOT EXISTS() AND NOT EXISTS() returns everything not in EXISTS() OR EXISTS().
+
+JOINS - Always use JOINS when joining tables, unless you really want to cross multiply. 
+
+A view is always up to date, and is a virtual table. dropped with the DROP VIEW command.
