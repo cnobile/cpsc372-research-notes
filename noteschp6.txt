@@ -1,0 +1,30 @@
+Christopher Nobile
+10/28/10
+
+Chapter 6
+
+Relational algebra, relational calculus
+
+unary - 1 relation
+binary - 2 relations aggregate functions - for when relational algebra isn't enough. data summarization
+
+Select - a limiter on data. take some rows, leave some rows.
+
+Project - take some columns, leave some columns.
+
+keeping duplicates results in a multiset.
+
+Union, intersection, set difference - basic set functions. A or B, A and B, A but not B. Only works among tuples of the same type.
+
+Cross products can be done. Combine every tuple of one set with every tuple of another set - not meaningful on its own, but useful depending on context.
+
+Join is very important - concatinate data.
+
+Equijoin - lets us combine by a common value. Natural join - stops the duplication of both identical values.
+
+6 operations form the complete set of relational algebra operations. They are difficult to approximate in text, but roughly look like this:
+
+{o, pi(the symbol), U, p, -, x}
+
+
+query tree - useful for organizing your searches. Note: There exists, and for all are useful notations.
